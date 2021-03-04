@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^3.6.2",
-    "next": "10.0.7",
+    "next": "^10.0.7",
     "postcss-cli": "^8.3.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"

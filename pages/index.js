@@ -1,5 +1,6 @@
 import Header from "./components/header"
 import Servicos from "./components/servicos"
+import Porque from "./components/porque"
 import Footer from "./components/Footer"
 import Image from 'next/image'
 import { motion } from "framer-motion";
@@ -48,6 +49,7 @@ export default function Home() {
         </div>
       </section>
       <Servicos/>
+      <Porque/>
       <Footer/>
     </div>
     

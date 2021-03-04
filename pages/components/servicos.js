@@ -17,9 +17,9 @@ export default function Servicos() {
         </div>
 
         <div>
-        <div class="grid grid-cols-2 gap-4 text-center lg:px-44 sm:px-4">
+        <div className="grid grid-cols-2 gap-4 text-center lg:px-44 sm:px-4">
           <div className="flex flex-col items-center justify-center py-14 px-4">
-            <div className="border-2 border-yellow-500 rounded-3xl h-20 w-20 relative">
+            <div className="border-2 border-mygreen rounded-3xl h-20 w-20 relative">
               <Image
                 className=" rounded-3xl" 
                 src="/img/nails.jpg" 

@@ -15,12 +15,23 @@ module.exports = {
       backgroundColor: theme => ({
         ...theme('colors'),
         'myorange': '#ffe4d9',
-        
-       }),
-       textColor: {
+        'mygreen': '#38675d'
+      }),
+      textColor: {
         'mygreen': '#38675d',
-        'myorange': '#fda377'
-      }
+        'myorange': '#fda377',
+        'mywhite': '#ffe4d9'
+      },
+      gradientColorStops: theme => ({
+        ...theme('colors'),
+        'greenBold': '#083b30',
+        'greenLight': '#26554b'
+      }),
+      borderColor: theme => ({
+        ...theme('colors'),
+        DEFAULT: theme('colors.gray.300', 'currentColor'),
+        'mygreen': '#26554b'
+      })
     },
   },
   variants: {
